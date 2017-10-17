@@ -14,7 +14,7 @@ public class BaseTest {
 
     @Before
     public void first() {
-        emf = Persistence.createEntityManagerFactory("JPA_DEMO2");
+        emf = Persistence.createEntityManagerFactory("JPA_DEMO");
         em = emf.createEntityManager();
         em.getTransaction().begin();
     }

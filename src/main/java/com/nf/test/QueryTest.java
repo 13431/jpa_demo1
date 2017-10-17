@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import java.util.List;
 
+
 public class QueryTest extends BaseTest {
 
     @Test public void testFind() {
